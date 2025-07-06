@@ -439,7 +439,7 @@ That's it! Your markdown is now converted to beautiful HTML.`;
               </div>
               <div>
                 <p><code className="bg-gray-200 dark:bg-gray-700 px-1 rounded">```code block```</code></p>
-                <p><code className="bg-gray-200 dark:bg-gray-700 px-1 rounded">> Blockquote</code></p>
+                <p><code className="bg-gray-200 dark:bg-gray-700 px-1 rounded">{'>'} Blockquote</code></p>
                 <p><code className="bg-gray-200 dark:bg-gray-700 px-1 rounded">---</code> (horizontal rule)</p>
                 <p><code className="bg-gray-200 dark:bg-gray-700 px-1 rounded">![Image](url)</code></p>
               </div>
