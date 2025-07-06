@@ -15,6 +15,12 @@ import { TipCalculator } from './tools/TipCalculator';
 import { PercentageCalculator } from './tools/PercentageCalculator';
 import { BasicCalculator } from './tools/BasicCalculator';
 import { RegexTester } from './tools/RegexTester';
+import { TextToPdf } from './tools/TextToPdf';
+import { MarkdownConverter } from './tools/MarkdownConverter';
+import { DataConverter } from './tools/DataConverter';
+import { FileExtractor } from './tools/FileExtractor';
+import { TextMerger } from './tools/TextMerger';
+import { EncodingConverter } from './tools/EncodingConverter';
 
 const toolComponents: Record<string, React.ComponentType> = {
   'case-converter': CaseConverter,
@@ -32,6 +38,12 @@ const toolComponents: Record<string, React.ComponentType> = {
   'percentage-calc': PercentageCalculator,
   'basic-calculator': BasicCalculator,
   'regex-tester': RegexTester,
+  'text-to-pdf': TextToPdf,
+  'markdown-converter': MarkdownConverter,
+  'data-converter': DataConverter,
+  'file-extractor': FileExtractor,
+  'text-merger': TextMerger,
+  'encoding-converter': EncodingConverter,
 };
 
 export const ToolContainer: React.FC = () => {

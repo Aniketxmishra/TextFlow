@@ -104,6 +104,55 @@ export const toolsData: Tool[] = [
   },
 
   // Converters
+  // Document Processors
+  {
+    id: 'text-to-pdf',
+    name: 'Text to PDF',
+    description: 'Convert text to PDF with styling options',
+    category: 'converter',
+    icon: 'FileText',
+    shortcut: 'X'
+  },
+  {
+    id: 'markdown-converter',
+    name: 'Markdown to HTML',
+    description: 'Convert Markdown to HTML with live preview',
+    category: 'converter',
+    icon: 'FileText',
+    shortcut: 'K'
+  },
+  {
+    id: 'data-converter',
+    name: 'Data Format Converter',
+    description: 'Convert between CSV, JSON, and XML formats',
+    category: 'converter',
+    icon: 'FileText',
+    shortcut: 'V'
+  },
+  {
+    id: 'file-extractor',
+    name: 'File Text Extractor',
+    description: 'Extract text content from uploaded files',
+    category: 'converter',
+    icon: 'FileText',
+    shortcut: 'Z'
+  },
+  {
+    id: 'text-merger',
+    name: 'Text File Merger',
+    description: 'Merge multiple text files with formatting',
+    category: 'converter',
+    icon: 'FileText',
+    shortcut: 'G'
+  },
+  {
+    id: 'encoding-converter',
+    name: 'Text Encoding Converter',
+    description: 'Convert between text encodings',
+    category: 'converter',
+    icon: 'Binary',
+    shortcut: 'N'
+  },
   {
     id: 'unit-converter',
     name: 'Unit Converter',
