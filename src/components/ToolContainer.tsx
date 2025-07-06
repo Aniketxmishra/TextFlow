@@ -14,6 +14,7 @@ import { UnitConverter } from './tools/UnitConverter';
 import { TipCalculator } from './tools/TipCalculator';
 import { PercentageCalculator } from './tools/PercentageCalculator';
 import { BasicCalculator } from './tools/BasicCalculator';
+import { RegexTester } from './tools/RegexTester';
 
 const toolComponents: Record<string, React.ComponentType> = {
   'case-converter': CaseConverter,
@@ -30,6 +31,7 @@ const toolComponents: Record<string, React.ComponentType> = {
   'tip-calculator': TipCalculator,
   'percentage-calc': PercentageCalculator,
   'basic-calculator': BasicCalculator,
+  'regex-tester': RegexTester,
 };
 
 export const ToolContainer: React.FC = () => {

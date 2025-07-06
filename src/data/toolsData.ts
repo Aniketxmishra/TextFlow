@@ -60,6 +60,14 @@ export const toolsData: Tool[] = [
     icon: 'Key',
     shortcut: 'H'
   },
+  {
+    id: 'regex-tester',
+    name: 'Regex Tester',
+    description: 'Test and debug regular expressions',
+    category: 'developer',
+    icon: 'Search',
+    shortcut: 'R'
+  },
 
   // Generators
   {
