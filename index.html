@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextFlow Pro - Comprehensive Text Processing Hub</title>
+    <meta name="description" content="Your comprehensive text processing and utility hub with 16+ tools for text manipulation, development, generation, conversion, and calculation." />
+    <meta name="keywords" content="text processing, utilities, developer tools, converters, calculators, productivity" />
+    <meta name="author" content="TextFlow Pro" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#3B82F6" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="TextFlow Pro - Text Processing Hub" />
+    <meta property="og:description" content="Comprehensive text processing and utility hub with 16+ tools" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/icon-192x192.png" />
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
